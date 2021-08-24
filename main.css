@@ -1,0 +1,65 @@
+/* Body background style to purple */
+body {
+background: purple;
+}
+
+/* Styling to the main header h1 */
+h1 {
+    text-align: center;
+    font-size: 150px;
+    color: gold;
+}
+
+/* Styling count */
+#count {
+    font-family: 'Papyrus';
+    margin-top: 250px;
+    margin-bottom: -260px; 
+}
+
+/* Style of the buttons- plusBtn and minusBtn */
+button {
+    background-color: white;
+    color: purple;
+    font-size: 80px;
+    height: 105px;
+    width: 105px;
+    border: 8px solid gold;
+    border-radius: 12px;
+}
+
+/* Styling the middle numDisplay */
+#numDisplay {
+    border-radius: 8px;
+    font-size: 75px;
+    text-align: center;
+    border: 7px solid gold;
+    margin: 0 20px 0 20px;
+    height: 90px;
+    width: 170px;
+}
+
+/* Styling the section part */
+section {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* When hovering cursor over plusBtn and minusBtn will have this color changing effect of a lavender color */
+#plusBtn:hover {
+    background: rgb(159, 107, 207);
+    color: white;
+}
+#minusBtn:hover {
+    background: rgb(159, 107, 207);
+    color: white;
+}
+
+/* Arrow Cursor Will Not Show Up When Typing Number(s) in the numDisplay box */
+#numDisplay[type=number]::-webkit-inner-spin-button, 
+#numDisplay[type=number]::-webkit-outer-spin-button { 
+  appearance: none; 
+  margin: 0;
+}  
